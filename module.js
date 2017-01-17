@@ -1,9 +1,9 @@
 'use strict';
 
-const fooBar = require('foobar'); // a non-existent module
+const fooBar = require('foo/bar'); // a non-existent module
 
 function doStuff() {
-    return foobar.method();
+    return fooBar.method();
 }
 
 module.exports = doStuff;

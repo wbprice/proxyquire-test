@@ -1,0 +1,15 @@
+{
+  "name": "proxyquire-test",
+  "version": "0.1.0",
+  "description": "Test case for proxyquire",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "wbprice",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.10"
+  }
+}
